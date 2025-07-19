@@ -30,6 +30,18 @@
 .header {
   background-color: #393f4d;
   grid-area: 1 / 1 / 1 / 3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.logo {
+  justify-self: left;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .menu ul,
