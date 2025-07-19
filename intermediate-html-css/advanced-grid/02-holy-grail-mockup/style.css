@@ -72,6 +72,14 @@
 .nav {
   background-color: #c50208;
   grid-area: 2 / 2 / 2 / 2;
+
+  display: grid;
+  align-items: center;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
